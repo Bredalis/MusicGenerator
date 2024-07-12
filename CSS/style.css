@@ -1,7 +1,16 @@
 
 * {
 	text-align: center;
-	font-family: Georgia;
+}
+
+@font-face {
+	font-family: "UntoldHistory";
+	src: url("../Fuentes/UntoldHistory/Untold_History.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: "BelanosimaSemiBold";
+	src: url("../Fuentes/Belanosima/Belanosima_SemiBold.ttf") format("opentype");
 }
 
 body {
@@ -9,21 +18,39 @@ body {
 } 
 
 h1, div div {
-	color: white;
+	color: whitesmoke;
 }
 
-div div {
-	display: inline-block;
+span {
+	color: #5D6D7E;
 }
 
 h1 {
+	font-family: "BelanosimaSemiBold";	
 	font-size: 3rem;
 	margin: 3rem;
 }
 
+button {
+	border-radius: 1rem;
+	border: none;
+	float: right;
+	position: relative;
+	bottom: 90px;
+	right: 100px;
+	cursor: pointer;
+	background-color: whitesmoke;
+}
+
+button img {
+	max-width: 30px;
+}
+
 div div {
+	display: inline-block;
 	margin-top: 1rem;
-	background: #343a40;
+	margin: 5px;
+	background-color: #343a40;
 	padding: 2rem;
 	width: 10rem;
 	font-size: 1.5rem;
@@ -33,4 +60,8 @@ div div {
 div div:hover {
 	cursor: pointer;
 	background: #495057;
+}
+
+h5 {
+	font-family: "UntoldHistory";		
 }

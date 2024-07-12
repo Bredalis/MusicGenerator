@@ -3,9 +3,19 @@
 	text-align: center;
 }
 
+@font-face {
+	font-family: "UntoldHistory";
+	src: url("../Fuentes/UntoldHistory/Untold_History.ttf") format("opentype");
+}
+
+body {
+	font-family: "UntoldHistory";
+} 
+
 h1 {
 	font-size: 60px;
 	margin-top: 60px;
+	color: #5D6D7E;
 }
 
 h2 {
