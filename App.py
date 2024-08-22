@@ -1,7 +1,7 @@
 
 from flask import Flask, render_template
 
-def generador_musica()
+def generador_musica():
 
 	app = Flask(__name__)
 
