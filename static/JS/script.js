@@ -1,27 +1,28 @@
 
+// Poner las canciones de forma automatizada
 document.addEventListener("DOMContentLoaded", () => {
 
 	const sonidos = [
-        { title: "JAZZ", src: "../Audio/Jazz.mp3" },
-        { title: "PIANO 1", src: "../Audio/Piano.mp3" },
-        { title: "PIANO 2", src: "../Audio/Piano_2.mp3" },
-        { title: "PIANO 3", src: "../Audio/Piano_3.mp3" },
-        { title: "PIANO 4", src: "../Audio/Piano_4.mp3" },
-        { title: "ROCK 1", src: "../Audio/Rock_1.mp3" },
-        { title: "ROCK 2", src: "../Audio/Rock_2.mp3" },
-        { title: "BLUE", src: "../Audio/Blue.mp3" },
-        { title: "GUITARRA 1", src: "../Audio/Guitarra.mp3" },
-        { title: "GUITARRA 2", src: "../Audio/Guitarra_2.mp3" },
-        { title: "FUNK 1", src: "../Audio/Funk.mp3" },
-        { title: "FUNK 2", src: "../Audio/Funk_2.mp3" },
-        { title: "ORQUESTA 1", src: "../Audio/Orquesta.mp3" },
-        { title: "ORQUESTA 2", src: "../Audio/Orquesta_2.mp3" },
-        { title: "ORQUESTA 3", src: "../Audio/Orquesta_3.mp3" },
-        { title: "VIOLíN 1", src: "../Audio/Violin.mp3" },
-        { title: "VIOLíN 2", src: "../Audio/Violin_2.mp3" },
-        { title: "INSTRUMENTO", src: "../Audio/Instrumentos.mp3" },
-        { title: "PISTA 1", src: "../Audio/Pista.mp3" },
-        { title: "PISTA 2", src: "../Audio/Pista_2.mp3" }
+        { title: "JAZZ", src: "/static/Audio/Jazz.mp3" },
+        { title: "PIANO 1", src: "/static/Audio/Piano.mp3" },
+        { title: "PIANO 2", src: "/static/Audio/Piano_2.mp3" },
+        { title: "PIANO 3", src: "/static/Audio/Piano_3.mp3" },
+        { title: "PIANO 4", src: "/static/Audio/Piano_4.mp3" },
+        { title: "ROCK 1", src: "/static/Audio/Rock_1.mp3" },
+        { title: "ROCK 2", src: "/static/Audio/Rock_2.mp3" },
+        { title: "BLUE", src: "/static/Audio/Blue.mp3" },
+        { title: "GUITARRA 1", src: "/static/Audio/Guitarra.mp3" },
+        { title: "GUITARRA 2", src: "/static/Audio/Guitarra_2.mp3" },
+        { title: "FUNK 1", src: "/static/Audio/Funk.mp3" },
+        { title: "FUNK 2", src: "/static/Audio/Funk_2.mp3" },
+        { title: "ORQUESTA 1", src: "/static/Audio/Orquesta.mp3" },
+        { title: "ORQUESTA 2", src: "/static/Audio/Orquesta_2.mp3" },
+        { title: "ORQUESTA 3", src: "/static/Audio/Orquesta_3.mp3" },
+        { title: "VIOLíN 1", src: "/static/Audio/Violin.mp3" },
+        { title: "VIOLíN 2", src: "/static/Audio/Violin_2.mp3" },
+        { title: "INSTRUMENTO", src: "/static/Audio/Instrumentos.mp3" },
+        { title: "PISTA 1", src: "/static/Audio/Pista.mp3" },
+        { title: "PISTA 2", src: "/static/Audio/Pista_2.mp3" }
     ];
 
 	// Obtener elementos a manipular
