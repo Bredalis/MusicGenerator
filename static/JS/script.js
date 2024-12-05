@@ -1,7 +1,6 @@
 
 // Poner las canciones de forma automatizada
 document.addEventListener("DOMContentLoaded", () => {
-
 	const sonidos = [
         { title: "JAZZ", src: "/static/Audio/Jazz.mp3" },
         { title: "PIANO 1", src: "/static/Audio/Piano.mp3" },
@@ -26,15 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
 	// Obtener elementos a manipular
-	const contenedorSonido = document.getElementById("contenedorSonido");
+	const contenedorSonido = document.getElementById("contenedor-sonido");
 	const h1 = document.querySelector("h1");
-	const botonColor = document.getElementById("botonColor");
+	const botonColor = document.getElementById("boton-color");
 
 	let condicion = true;
 
 	// Crear div de audio
 	sonidos.forEach((sonido, index) => {
-
 		const contenedor = document.createElement("div");
 		contenedor.classList.add("sonidos");
 
@@ -52,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		// Reproducir audio
 		contenedor.addEventListener("click", () => {
-
 			const sonando = audio.paused;
 
 			sonando ? audio.play() : audio.pause();
@@ -62,7 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Cambiar el color de fondo
 	botonColor.addEventListener("click", () => {
-
 		document.body.style.backgroundColor = condicion ? "#212529" : "whitesmoke";
 		h1.style.color = condicion ? "whitesmoke" : "#212529";
 		
