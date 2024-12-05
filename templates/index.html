@@ -8,14 +8,16 @@
 	<link rel="shortcut icon" href="{{ url_for('static', filename='IMG/Logo.png') }}" type="image/x-icon">
 </head>
 <body>
+	<main>
+		<h1>Generador De <span>Música</span></h1>
+		<button id="boton-color">
+			<img src="{{ url_for('static', filename='IMG/Icono_Color.png') }}" alt="Icono para cambiar color">
+		</button>
 
-	<h1>Generador De <span>Música</span></h1>
-	<button id="botonColor">
-		<img src="{{ url_for('static', filename='IMG/Icono_Color.png') }}" alt="Icono para cambiar color">
-	</button>
+		<br><br><br>
+		<div id="contenedor-sonido"></div>
+	</main>
 
-	<br><br><br>
-	<div id="contenedorSonido"></div>
 	<script src="{{ url_for('static', filename='JS/script.js') }}"></script>
 </body>
 </html>
